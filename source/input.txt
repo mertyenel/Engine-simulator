@@ -1,0 +1,26 @@
+add_fuel_tank 100
+add_fuel_tank 150
+add_fuel_tank 200
+add_fuel_tank 250
+fill_tank 1 100
+fill_tank 2 100
+fill_tank 3 100
+fill_tank 4 100
+connect_fuel_tank_to_engine 1
+connect_fuel_tank_to_engine 2
+connect_fuel_tank_to_engine 3
+connect_fuel_tank_to_engine 4
+start_engine
+open_valve 1
+open_valve 2
+open_valve 3
+open_valve 4
+list_connected_tanks
+wait 7
+list_connected_tanks
+wait 10
+print_total_fuel_quantity
+print_total_consumed_fuel_quantity
+list_connected_tanks
+print_total_consumed_fuel_quantity
+stop_simulation
